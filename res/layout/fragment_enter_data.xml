@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="andrej.jelic.attend.EnterData"
+    style="@style/Tema">
+
+    <ImageView
+        android:id="@+id/imageView_enter"
+        style="@style/BackgroundImage" />
+
+    <EditText
+        android:id="@+id/firstName_enter"
+        android:hint="@string/first_name"
+        style="@style/editText"
+        android:nextFocusDown="@+id/lastName_enter" />
+    <requestFocus/>
+
+    <EditText
+        android:id="@+id/lastName_enter"
+        android:hint="@string/last_name"
+        style="@style/editText"
+        android:nextFocusDown="@+id/indexNumber_enter"/>
+
+    <EditText
+        android:id="@+id/indexNumber_enter"
+        android:hint="@string/index"
+        style="@style/editText"
+        android:nextFocusDown="@+id/buttonLogin"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        style="@style/Button"
+        android:text="@string/login"
+        android:focusable="true"/>
+
+
+</LinearLayout>

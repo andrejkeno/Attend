@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Tema.Warning"
+    tools:context="andrej.jelic.attend.Warning">
+
+    <TextView
+        android:id="@+id/textView_warning"
+        style="@style/textView.warning"
+        android:text="@string/Warning"
+        android:layout_weight="9"/>
+
+    <TextView
+        android:id="@+id/textView2_warning"
+        style="@style/textView.warning"
+        android:text="@string/Close" />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo">
+
+    </style>
+
+    <style name="Tema">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/background_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="Tema.Warning">
+        <item name="android:background">@drawable/logo_etfos</item>
+        <item name="android:padding">@dimen/warning_padding</item>
+    </style>
+
+    <!-- Background image -->
+    <style name="BackgroundImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:layout_margin">@dimen/image_view_margin</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/logo_etfos</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_weight">@integer/imageViewWeight</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- Title text -->
+    <style name="textView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_view_font</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">@integer/text_view_weight</item>
+
+    </style>
+
+    <style name="textView.Horizontal">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <style name="textView.warning">
+        <item name="android:background">@color/warning_text_background</item>
+        <item name="android:textSize">@dimen/warning_font_size</item>
+        <item name="android:textColor">@color/warning_text_color</item>
+    </style>
+
+    <style name="textView.listView">
+        <item name="android:textSize">@dimen/text_view_listView_font</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@integer/text_view_listView_weight</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:layout_weight">@integer/edit_text_weight</item>
+        <item name="android:gravity">left|bottom</item>
+        <item name="android:textSize">@dimen/edit_text_font_size</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_view_font</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">@integer/text_view_weight</item>
+        <item name="android:background">@drawable/button</item>
+
+    </style>
+
+    <style name="Button.Second">
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="listView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:layout_weight">@integer/list_view_weight</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="listItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/list_item_font</item>
+        <item name="android:layout_weight">@integer/text_view_weight</item>
+        <item name="android:background">@drawable/text_view</item>
+    </style>
+
+</resources>

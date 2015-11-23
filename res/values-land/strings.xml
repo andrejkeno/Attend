@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Attend</string>
+
+    <string name="login_to_attend">Login to attend!</string>
+    <string name="login">Login!</string>
+    <string name="Read">Read first!</string>
+    <string name="Attend">Attend!</string>
+    <string name="Leave">Leave</string>
+    <string name="scan">Scan</string>
+    <string name="scanning">Scanning</string>
+    <string name="select_device">Select device: </string>
+    <string name="paired_devices">Paired devices:</string>
+    <string name="none_paired_found">No paired devices. </string>
+    <string name="new_devices">New devices: </string>
+    <string name="none_found">No new devices. </string>
+
+    <string name="not_connected">Not connected to a device!</string>
+    <string name="title_connected_to">Connected to a device: </string>
+    <string name="title_connecting">Connecting to: </string>
+    <string name="bt_not_enabled_leaving">Bluetooth not enabled </string>
+
+    <string name="Warning">You are allowed to \n login only once. \n \n
+    Be careful and provide correct information. </string>
+
+    <string name="Close">TAP TO CLOSE</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="background_color">#000000</color>
+    <color name="text_color">#ffffff</color>
+
+    <color name="warning_text_color">#999999</color>
+    <color name="warning_text_background">#cc000000</color>
+
+    <color name="button_back_pressed">#ff0000</color>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+
+    <string name="listening">Listening</string>
+    <string name="attending">You are attending!</string>
+    <string name="leave">You can leave :)</string>
+    <string name="noString">Paired devices array doesn\'t contain that string</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="index">index number ex. D-123R</string>
+    <string name="bluetooth_error">Bluetooth error, try restarting your phone!</string>
+    <string name="disconnect">Disconnect!</string>
+    <string name="Error">Error</string>
+    <string name="forgot">You forgot to sign out!</string>
+
+
+</resources>

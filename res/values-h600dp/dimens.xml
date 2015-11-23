@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_landscape_margin">0dp</dimen>
+    <dimen name="image_view_margin">10dp</dimen>
+    <dimen name="zero">0dp</dimen>
+
+    <dimen name="warning_padding">0dp</dimen>
+
+    //Weights
+    <integer name="imageViewWeight">3</integer>
+    <integer name="linearLayoutWeight">1</integer>
+
+    //Text View
+    <dimen name="text_view_font">40sp</dimen>
+    <integer name="text_view_weight">1</integer>
+    <dimen name="text_view_listView_font">25sp</dimen>
+    <integer name="text_view_listView_weight">0</integer>
+    <dimen name="text_view_margin">20dp</dimen>
+
+    //Text View Warning
+    <dimen name="warning_font_size">30sp</dimen>
+
+    //Edit Text
+    <dimen name="edit_text_font_size">30sp</dimen>
+    <integer name="edit_text_weight">1</integer>
+
+    //Button
+    <dimen name="button_stroke_width">3dp</dimen>
+    <dimen name="button_radius">20dp</dimen>
+    <dimen name="button_margin">20dp</dimen>
+
+    //ListView
+    <integer name="list_view_weight">4</integer>
+    <dimen name="list_item_font">20sp</dimen>
+</resources>

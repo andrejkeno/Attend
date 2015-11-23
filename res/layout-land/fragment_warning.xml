@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Tema.Warning"
+   >
+
+    <TextView
+        android:id="@+id/textView_warning"
+        style="@style/textView.warning"
+        android:text="@string/Warning"
+        android:layout_weight="7"/>
+
+    <TextView
+        android:id="@+id/textView2_warning"
+        style="@style/textView.warning"
+        android:text="@string/Close"        />
+
+</LinearLayout>

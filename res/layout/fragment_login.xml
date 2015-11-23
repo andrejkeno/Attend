@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Tema"
+    tools:context="andrej.jelic.attend.Login"
+    >
+
+    <TextView
+        android:id="@+id/textView_login"
+        style="@style/textView"
+        android:text="@string/login_to_attend" />
+
+
+    <ImageView
+        android:id="@+id/imageView_login"
+        style="@style/BackgroundImage" />
+
+    <Button
+        android:id="@+id/buttonRead"
+        style="@style/Button"
+        android:text="@string/Read" />
+
+
+</LinearLayout>
